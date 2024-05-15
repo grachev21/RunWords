@@ -1,0 +1,13 @@
+.menu_list {
+    font-weight: 800;
+    background-color: var(--background-contrast);
+    color: var(--text-color);
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 30px;
+    border: 1px solid var(--border);
+    width: 100%;
+    margin: 10px;
+    border-radius: 8px;
+    transition: .3s;
+}

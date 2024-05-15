@@ -1,0 +1,25 @@
+header {
+    background-color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+    .switch_block {
+        display: flex;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        background-color: blue;
+        border-radius: 20px;
+    }
+
+    .logo {
+        font-size: 26px;
+        font-weight: 600;
+    }
+}
