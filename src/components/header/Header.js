@@ -11,7 +11,6 @@ export default function Nav() {
                 <img className='icons' src={day} />
                 <img className='icons' src={night} />
             </div>
-            hello header
         </header>
     )
 }

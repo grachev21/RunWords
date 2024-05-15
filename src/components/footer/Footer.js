@@ -1,3 +1,8 @@
-export default function Footer(params) {
+export default function Footer() {
+    return (
+        <div className="footer">
+            Footer
+        </div>
+        )
     
 }

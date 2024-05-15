@@ -1,0 +1,33 @@
+.button-menu {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+    margin: 10px;
+    background-color: var(--background-contrast);
+    width: 400px;
+    border-radius: 10px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(317deg, rgba(2, 0, 36, 1) 0%, rgba(33, 11, 40, 1) 58%, rgba(22, 81, 98, 1) 100%);
+    border: 1px solid var(--border);
+
+    p {
+        text-align: end;
+        letter-spacing: 2px;
+        color: var(--light-text-contrast);
+        font-weight: 400;
+        font-size: 20px;
+        margin-left: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        cursor: pointer;
+    }
+
+    img {
+        width: 23px;
+        height: 23px;
+        filter: invert();
+        margin-left: 30px;
+        cursor: pointer;
+    }
+}
