@@ -10,7 +10,10 @@ export default function Home() {
 
             {menu_list.map((menu_list, index) => {
                 return (
-                    <NavLink to={menu_list.link} className="link_menu">
+                    <NavLink
+                        key={index}
+                        to={menu_list.link}
+                        className="link_menu">
                         <ButtonMenu
                             key={index}
                             title={menu_list.title}

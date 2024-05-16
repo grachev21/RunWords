@@ -1,0 +1,14 @@
+.createDict {
+    background-color: black;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    form {
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}
