@@ -7,14 +7,14 @@
     background-color: var(--background-contrast);
     width: 400px;
     border-radius: 10px;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(317deg, rgba(2, 0, 36, 1) 0%, rgba(33, 11, 40, 1) 58%, rgba(22, 81, 98, 1) 100%);
+    background: rgb(7, 7, 54);
+    background: radial-gradient(circle, rgb(10, 10, 19) 0%, rgba(0, 0, 0, 1) 100%);
     border: 1px solid var(--border);
 
     p {
         text-align: end;
         letter-spacing: 2px;
-        color: var(--light-text-contrast);
+        color: var(--text-contrast);
         font-weight: 400;
         font-size: 20px;
         margin-left: 30px;

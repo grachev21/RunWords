@@ -1,6 +1,6 @@
 :root {
-  --text-color: #879aa8;
-  --light-text-contrast: #ffffff;
+  --text: #879aa8;
+  --text-contrast: #ffffff;
   --background: #000000;
   --background-contrast: #0e0d17;
   --violet: #5c23b8;
