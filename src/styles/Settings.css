@@ -127,3 +127,14 @@ a {
   background-color: var(--background);
 }
 
+
+:root {
+    --text: #000000;
+    --text-contrast: #23176d;
+    --background: #fafafa;
+    --background-contrast: #b0a5ff;
+    --violet: #ce2fc1;
+    --red: #ff0000;
+    --border: #525252;
+    --border-red: rgb(19, 108, 52);
+}

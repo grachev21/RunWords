@@ -21,7 +21,6 @@ header {
         width: 17px;
         height: 17px;
         padding: 8px;
-        filter: invert();
         border-radius: 5px;
         border: 1px solid var(--border);
         opacity: 50%;
