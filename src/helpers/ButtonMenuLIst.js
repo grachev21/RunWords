@@ -42,11 +42,11 @@ export const menu_list = [
     {
         title: 'ВОЙТИ',
         img: login,
-        link: '',
+        link: 'login',
     },
     {
         title: 'ВЫЙТИ',
         img: logout,
-        link: '',
+        link: 'logout',
     },
 ]

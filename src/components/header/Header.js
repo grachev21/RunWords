@@ -1,7 +1,7 @@
-import day from '../../img/icons/day.png';
-import night from '../../img/icons/night.png';
+import { NavLink } from 'react-router-dom';
 import logo from '../../img/icons/ravencoin.png';
 import menu from '../../img/icons/menu_header.png'
+import ButtonTheme from '../button_theme/ButtonTheme';
 import './styles.css'
 
 
@@ -10,15 +10,16 @@ export default function Nav() {
         <header>
             <div className='block_menu_header'>
                 <img className='menu_header' src={menu} />
-                <div className="logo">
-                    <img src={logo} />
-                    <div className='logotext'>WorSa</div>
-                </div>
+                <NavLink to='/'>
+                    <div className="logo">
+                        <img src={logo} />
+                        <div className='logotext'>WorSa</div>
+                    </div>
+                </NavLink>
+
+
             </div>
-            <div className="switch_block">
-                <img className='icons' src={day} />
-                <img className='icons' src={night} />
-            </div>
-        </header>
+                <ButtonTheme />
+        </header >
     )
 }

@@ -1,12 +1,15 @@
-import '../styles/CreateDict.css'
-import Input from '../components/inputs/Input'
+import '../styles/CreateDict.css';
+import Input from '../components/inputs/Input';
+import ButtonInput from '../components/button_input/ButtonInput';
+
 
 export default function CreateDict() {
     return (
         <div className="createDict">
+
             <form>
-                <Input />
-                <input type="submit" value="Submit" />
+                <Input title='ТЕКСТ'/>
+                <ButtonInput title='СОЗДАТЬ СЛОВАРЬ'/>
             </form>
         </div>
     )

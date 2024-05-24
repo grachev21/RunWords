@@ -1,0 +1,33 @@
+.ButtonTheme {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    background-color: blue;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dark {
+    --text: #aeaeae;
+    --text-contrast: #ffffff;
+    --background: #000000;
+    --background-contrast: #252442;
+    --violet: #981184;
+    --red: #ff0000;
+    --border: #525252;
+    --border-red: rgb(108, 19, 102);
+}
+
+.light {
+    --text: #000000;
+    --text-contrast: #23176d;
+    --background: #fafafa;
+    --background-contrast: #b0a5ff;
+    --violet: #ce2fc1;
+    --red: #ff0000;
+    --border: #525252;
+    --border-red: rgb(19, 108, 52);
+}
+

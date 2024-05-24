@@ -7,8 +7,6 @@
     background-color: var(--background-contrast);
     width: 400px;
     border-radius: 10px;
-    background: rgb(7, 7, 54);
-    background: radial-gradient(circle, rgb(10, 10, 19) 0%, rgba(0, 0, 0, 1) 100%);
     border: 1px solid var(--border);
 
     p {

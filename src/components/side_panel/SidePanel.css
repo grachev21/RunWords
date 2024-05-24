@@ -1,0 +1,28 @@
+.activ-link {
+    img {
+        opacity: 100%;
+    }
+}
+
+.normal-link {
+    img {
+        opacity: 30%;
+    }
+
+}
+
+.SidePanel {
+    margin-top: 220px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+    img {
+        margin: 30px;
+        display: flex;
+        flex-direction: column;
+        filter: invert();
+        width: 23px;
+        height: 23px;
+    }
+}

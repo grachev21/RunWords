@@ -51,12 +51,4 @@ header {
         }
     }
 
-    .switch_block {
-        display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
-        flex-direction: row;
-        background-color: blue;
-        border-radius: 20px;
-    }
 }

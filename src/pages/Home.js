@@ -1,5 +1,4 @@
 import { NavLink } from 'react-router-dom';
-
 import ButtonMenu from '../components/button_menu/ButtonMenu';
 import { menu_list } from '../helpers/ButtonMenuLIst';
 
@@ -7,7 +6,6 @@ import { menu_list } from '../helpers/ButtonMenuLIst';
 export default function Home() {
     return (
         <div className="home">
-
             {menu_list.map((menu_list, index) => {
                 return (
                     <NavLink
