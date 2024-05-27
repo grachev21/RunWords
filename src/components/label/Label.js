@@ -1,7 +1,10 @@
-export default function Label() {
+import './styles.css';
+
+
+export default function Label({word}) {
     return (
         <div className='Label'>
-                <span>words</span>
+            <p className='word'>{word}</p>
         </div>
     )
 }

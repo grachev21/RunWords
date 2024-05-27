@@ -1,0 +1,14 @@
+.Label {
+    text-align: center;
+    width: 100%;
+    background-color: var(--button-background);
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    .word {
+        color: var(--text);
+    }
+}

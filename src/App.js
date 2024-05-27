@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 
 import './styles/Settings.css';
+import './styles/Colors.css';
 import './styles/App.css';
-import './styles/Icons.css';
 
 import Footer from './components/footer/Footer';
 import Header from './components/header/Header';
@@ -13,6 +13,7 @@ import LearnWords from './pages/LearnWords';
 import Repeat from './pages/Repeat';
 import SidePanel from './components/side_panel/SidePanel';
 import ScrollToTop from './utils/scrollToTop';
+import List from './pages/List';
 
 function App() {
   return (
@@ -22,12 +23,13 @@ function App() {
         <Header />
 
         <SidePanel />
-        <div className="home-container">
+        <div className="container">
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/createdict' element={<CreateDict />} />
             <Route path='/university' element={<LearnWords />} />
             <Route path='/repeat' element={<Repeat />} />
+            <Route path='/list' element={<List />} />
           </Routes>
         </div>
         <Footer />

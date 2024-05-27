@@ -11,11 +11,10 @@ export default function LearnWords() {
                 hello world
             </div>
             <div className="word-options">
-                <Label />
-                <Label />
-                <Label />
-                <Label />
-                <Label />
+                <Label word='hello' />
+                <Label word='words' />
+                <Label word='print' />
+                <Label word='components' />
             </div>
             <div className="input-answer">
                 <Input />

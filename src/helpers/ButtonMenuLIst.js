@@ -1,3 +1,4 @@
+import home from '../img/icons/home-icon-silhouette_69524.png';
 import create_dict from '../img/icons/create_dict.png';
 import university from '../img/icons/university.png';
 import login from '../img/icons/login.png';
@@ -8,7 +9,13 @@ import list from '../img/icons/list.png';
 import repeat from '../img/icons/repeat.png';
 
 
+
 export const menu_list = [
+    {
+        title: 'ДОМ',
+        img: home,
+        link: ''
+    },
     {
         title: 'СОЗДАЕТЬ СЛОВАРЬ',
         img: create_dict,

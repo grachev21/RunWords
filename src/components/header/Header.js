@@ -9,17 +9,18 @@ export default function Nav() {
     return (
         <header>
             <div className='block_menu_header'>
-                <img className='menu_header' src={menu} />
                 <NavLink to='/'>
                     <div className="logo">
-                        <img src={logo} />
+                        <div className='img-icons'>
+                            <img src={logo} />
+                        </div>
                         <div className='logotext'>WorSa</div>
                     </div>
                 </NavLink>
 
 
             </div>
-                <ButtonTheme />
+            <ButtonTheme />
         </header >
     )
 }

@@ -1,13 +1,16 @@
 .createDict {
-    background-color: black;
     display: flex;
     justify-content: center;
     flex-direction: column;
 
     form {
-        color: aliceblue;
+        color: var(--text);
         display: flex;
         align-items: center;
         flex-direction: column;
+
+        .ButtonInput {
+            margin-top: 20px;
+        }
     }
 }

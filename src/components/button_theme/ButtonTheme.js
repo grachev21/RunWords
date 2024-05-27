@@ -14,11 +14,11 @@ export default function ButtonTheme() {
 
         if (Dark === 'dark') {
             document.querySelector('html').classList.add('dark');
-            btnRef.current.classList.add('dark-button-active');
+            btnRef.current.setAttribute('style', 'background: black; left: 45px; transition: .3s;');
 
         } else {
             document.querySelector('html').classList.remove('dark');
-            btnRef.current.classList.remove('dark-button-active');
+            btnRef.current.removeAttribute('style');
         }
     }, [Dark]);
 
@@ -29,12 +29,11 @@ export default function ButtonTheme() {
     }
 
     return (
-        <div className='ButtonTheme'>
-            <button ref={btnRef} className='ButtonTheme' onClick={switchDayNight}>
-                <img className='icons' src={day} />
-                <img className='icons' src={night} />
+            <button className='ButtonTheme' onClick={switchDayNight}>
+                <img className='icons-day' src={day} />
+                <img className='icons-night' src={night} />
+                <div ref={btnRef} className='ball'></div>
             </button>
 
-        </div>
     )
 }

@@ -1,9 +1,10 @@
-.container {
+.Home {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     flex-direction: column;
-    
-    margin: 100px;
+
+    .link-menu {
+        width: 100%;
+    }
 }

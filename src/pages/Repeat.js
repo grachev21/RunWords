@@ -1,19 +1,20 @@
-import '../styles/Repeat.css';
-import Input from '../components/inputs/Input';
+import Input from '../components/inputs/Input'
+import Label from '../components/label/Label'
+import '../styles/LearnWords.css'
 
 
-export default function Repeat() {
+export default function LearnWords() {
     return (
-        <div className="Repeat">
+        <div className="LearnWords">
 
             <div className="ru-word">
                 hello world
             </div>
             <div className="word-options">
-                <span>words</span>
-                <span>words</span>
-                <span>words</span>
-                <span>words</span>
+                <Label word='hello' />
+                <Label word='words' />
+                <Label word='print' />
+                <Label word='components' />
             </div>
             <div className="input-answer">
                 <Input />
