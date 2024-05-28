@@ -8,7 +8,7 @@ export default function CreateDict() {
         <div className="createDict">
 
             <form>
-                <Input title='ТЕКСТ'/>
+                <Input title='ТЕКСТ' label='Вставте текст' />
                 <ButtonInput title='СОЗДАТЬ СЛОВАРЬ'/>
             </form>
         </div>
