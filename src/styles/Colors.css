@@ -1,12 +1,16 @@
 :root {
-    --text: #000000;
-    --background: #d7d7d7;
-    --background-contrast: #b0a5ff;
+    --text: #fff;
+    --background: #051023;
+    --background-contrast: #a09db5;
     --violet: #ce2fc1;
     --red: #ff0000;
-    --border: #ffffff;
-    --icons-background: rgb(145, 142, 174);
-    --button-background: rgb(54, 128, 157);
-    --shadow: rgb(198, 198, 198);
-    --header: rgb(142, 149, 167);
+    --border: #627c9d;
+    --icons-background: #4ecaab;
+    --button-background: rgb(17, 29, 34);
+    --shadow: rgb(20, 20, 26);
+    --header: rgb(10, 13, 19);
+
+    img {
+        filter: invert();
+    }
 }

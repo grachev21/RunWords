@@ -7,6 +7,7 @@ import '../styles/Home.css';
 export default function Home() {
     return (
         <div className="Home">
+
             {menu_list.map((menu_list, index) => {
                 return (
                     <NavLink

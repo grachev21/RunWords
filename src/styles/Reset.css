@@ -1,0 +1,16 @@
+.Reset {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    form {
+        color: var(--text);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .ButtonInput {
+            margin-top: 20px;
+        }
+    }
+}

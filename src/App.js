@@ -14,6 +14,9 @@ import Repeat from './pages/Repeat';
 import SidePanel from './components/side_panel/SidePanel';
 import ScrollToTop from './utils/scrollToTop';
 import List from './pages/List';
+import Reset from './pages/Reset';
+import Video from './components/video/Video';
+
 
 function App() {
   return (
@@ -30,6 +33,7 @@ function App() {
             <Route path='/university' element={<LearnWords />} />
             <Route path='/repeat' element={<Repeat />} />
             <Route path='/list' element={<List />} />
+            <Route path='/reset' element={<Reset />} />
           </Routes>
         </div>
         <Footer />

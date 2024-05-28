@@ -7,10 +7,12 @@ import './styles.css';
 
 export default function ButtonTheme() {
 
+    // Первая переменная имеет начальное состояние 'light'
     const [Dark, setDark] = useState('light');
+
     const btnRef = useRef(null);
 
-    useEffect(() => {
+    useEffect(function() {
 
         if (Dark === 'dark') {
             document.querySelector('html').classList.add('dark');
@@ -20,11 +22,15 @@ export default function ButtonTheme() {
             document.querySelector('html').classList.remove('dark');
             btnRef.current.removeAttribute('style');
         }
+    // Вторым аргументом передаем начальное состояние
     }, [Dark]);
 
+    // Вызывается по щелчку мыши
     function switchDayNight() {
-        setDark((currentValue) => {
-            return currentValue === 'light' ? 'dark' : 'light';
+        // Вызываем функцию второго состояния
+        setDark(function(currentValue) {
+            // И передаем в нее переменную light или dark
+            return currentValue == 'light' ? 'dark' : 'light';
         })
     }
 
@@ -35,5 +41,5 @@ export default function ButtonTheme() {
                 <div ref={btnRef} className='ball'></div>
             </button>
 
-    )
-}
+    );
+};
