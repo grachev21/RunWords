@@ -3,6 +3,7 @@ import Input from '../components/inputs/Input';
 import ButtonInput from '../components/button_input/ButtonInput';
 
 
+
 export default function CreateDict() {
     return (
         <div className="createDict">

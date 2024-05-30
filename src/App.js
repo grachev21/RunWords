@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
+import axios from 'axios';
 
 import './styles/Settings.css';
 import './styles/Colors.css';
@@ -15,10 +15,16 @@ import SidePanel from './components/side_panel/SidePanel';
 import ScrollToTop from './utils/scrollToTop';
 import List from './pages/List';
 import Reset from './pages/Reset';
-import Video from './components/video/Video';
 
+
+const baseUrl = 'http://127.0.0.1:8000/api/v1/worsalist/';
 
 function App() {
+
+  axios.get(baseUrl).then(function(res) {
+    console.log(res.data);
+  })
+
   return (
     <div className="App">
       <Router>
