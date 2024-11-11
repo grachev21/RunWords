@@ -1,5 +1,5 @@
-import Input from '../components/inputs/Input'
-import Label from '../components/label/Label'
+import Input from '../components/Inputs/Input'
+import Label from '../components/Label/Label'
 import '../styles/LearnWords.css'
 
 

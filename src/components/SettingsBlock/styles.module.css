@@ -1,0 +1,12 @@
+.settings {
+  display: flex;
+  align-items: flex-end;
+  align-content: flex-start;
+}
+.item {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.button {
+  margin-left: 80px;
+}
