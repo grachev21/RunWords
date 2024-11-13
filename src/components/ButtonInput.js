@@ -13,9 +13,9 @@ const Input = styled.input`
 
 const ButtonInput = ({ title }) => {
   return (
-    <Input>
+    // <Input>
       <input type="submit" value={title} />
-    </Input>
+    // </Input>
   );
 };
 export default ButtonInput;

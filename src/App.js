@@ -4,6 +4,8 @@ import "./styles/Settings.css";
 import "./styles/Colors.css";
 import "./styles/App.css";
 
+import { ThemeProvider } from "styled-components";
+
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
@@ -15,29 +17,38 @@ import ScrollToTop from "./utils/scrollToTop";
 import List from "./pages/List";
 import Reset from "./pages/Reset";
 
-const baseUrl = "http://127.0.0.1:8000/api/v1/worsalist/";
-
+const theme = {
+  colors: {
+    text: "#e7ebee",
+    background: "#0f0f0f",
+    backgroundContrast: "#1a1a1a",
+    button: "#e1860e",
+    buttonDark: "#1a1919",
+  },
+};
 const App = () => {
   return (
-    <div className="App">
-      <Router>
-        <ScrollToTop />
-        <Header />
+    <ThemeProvider theme={theme}>
+      <div className="App">
+        <Router>
+          <ScrollToTop />
+          <Header />
 
-        <SidePanel />
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/createdict" element={<CreateDict />} />
-            <Route path="/university" element={<LearnWords />} />
-            <Route path="/repeat" element={<Repeat />} />
-            <Route path="/list" element={<List />} />
-            <Route path="/reset" element={<Reset />} />
-          </Routes>
-        </div>
-        <Footer />
-      </Router>
-    </div>
+          <SidePanel />
+          <div className="container">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/createdict" element={<CreateDict />} />
+              <Route path="/university" element={<LearnWords />} />
+              <Route path="/repeat" element={<Repeat />} />
+              <Route path="/list" element={<List />} />
+              <Route path="/reset" element={<Reset />} />
+            </Routes>
+          </div>
+          <Footer />
+        </Router>
+      </div>
+    </ThemeProvider>
   );
 };
 
