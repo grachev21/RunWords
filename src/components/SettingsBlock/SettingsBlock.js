@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import { IoSettingsOutline } from "react-icons/io5";
 import { FaRegUser, FaRegBell } from "react-icons/fa";
-import ButtonTheme from "../ButtonTheme/ButtonTheme";
+import ButtonTheme from "../ButtonTheme";
 
 const SettingsBox = () => {
   return (

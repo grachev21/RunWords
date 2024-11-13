@@ -1,11 +1,9 @@
-import { useState, useEffect, useRef } from "react";
+import { useState } from "react";
 import { WiDaySunny } from "react-icons/wi";
 import { MdNightlight } from "react-icons/md";
 
 const ButtonTheme = () => {
   const [isTheme, setTheme] = useState("dark");
-
-  console.log(isTheme);
 
   const switchDayNight = () => {
     setTheme((e) => {

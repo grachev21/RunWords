@@ -5,7 +5,7 @@ import "./styles/Colors.css";
 import "./styles/App.css";
 
 import Footer from "./components/Footer/Footer";
-import Header from "./components/Header/Header";
+import Header from "./components/Header";
 import Home from "./pages/Home";
 import CreateDict from "./pages/CreateDict";
 import LearnWords from "./pages/LearnWords";

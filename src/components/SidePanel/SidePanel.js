@@ -1,7 +1,7 @@
 import styles from "./styles.module.css";
 import { NavLink } from "react-router-dom";
 import { menu_list } from "../../helpers/ButtonMenuLIst";
-import ButtonTheme from "../ButtonTheme/ButtonTheme";
+import ButtonTheme from "../ButtonTheme";
 
 const SidePanel = () => {
   return (

@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import ButtonMenu from "../components/ButtonMenu/ButtonMenu";
+import ButtonMenu from "../components/ButtonMenu";
 import { menu_list } from "../helpers/ButtonMenuLIst";
 import "../styles/Home.css";
 

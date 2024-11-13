@@ -1,6 +1,6 @@
 import '../styles/CreateDict.css';
 import Input from '../components/Inputs/Input';
-import ButtonInput from '../components/ButtonInput/ButtonInput';
+import ButtonInput from '../components/ButtonInput';
 
 
 
