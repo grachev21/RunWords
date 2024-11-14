@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import logo from "../../img/icons/ravencoin.png";
+import logo from "../../media/icons/ravencoin.png";
 
 const BackgroundLogo = styled.div`
   display: flex;

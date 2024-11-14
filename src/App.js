@@ -12,7 +12,7 @@ import Home from "./pages/Home";
 import CreateDict from "./pages/CreateDict";
 import LearnWords from "./pages/LearnWords";
 import Repeat from "./pages/Repeat";
-import SidePanel from "./components/SidePanel/SidePanel";
+import SidePanel from "./pages/pageComponents/SidePanel";
 import ScrollToTop from "./utils/scrollToTop";
 import List from "./pages/List";
 import Reset from "./pages/Reset";

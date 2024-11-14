@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 import Logo from "./Logo/Logo";
-import SettingsBox from "./SettingsBlock/SettingsBlock";
+import SettingsBox from "./SettingsBlock";
 
 const Header = styled.div`
   display: flex;

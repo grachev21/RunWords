@@ -1,7 +1,7 @@
 import styled from "styled-components";
-import iconSettig from "../../img/icons/icons8-settings-50.png";
-import iconUser from "../../img/icons/icons8-user-24.png";
-import iconMessage from "../../img/icons/icons8-message-50.png";
+import iconSettig from "../media/icons/icons8-settings-50.png";
+import iconUser from "../media/icons/icons8-user-24.png";
+import iconMessage from "../media/icons/icons8-message-50.png";
 
 const Settings = styled.div`
   display: flex;
