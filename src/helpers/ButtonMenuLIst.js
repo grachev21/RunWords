@@ -7,32 +7,32 @@ import repeat from "../media/icons/repeat.png";
 
 export const menu_list = [
   {
-    title: "ДОМ",
+    title: "Главная страница",
     img: home,
     link: "",
   },
   {
-    title: "СОЗДАЕТЬ СЛОВАРЬ",
+    title: "Создаеть словарь",
     img: create_dict,
     link: "createdict",
   },
   {
-    title: "УЧИТЬ СЛОВА",
+    title: "Учить слова",
     img: university,
     link: "university",
   },
   {
-    title: "ПОВТОР",
+    title: "Повтор",
     img: repeat,
     link: "repeat",
   },
   {
-    title: "СПИСОК СЛОВ",
+    title: "Список слов",
     img: list,
     link: "list",
   },
   {
-    title: "СТЕРЕТЬ ДАННЫЕ",
+    title: "Стереть данные",
     img: reset,
     link: "reset",
   },

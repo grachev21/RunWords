@@ -1,7 +1,11 @@
 import style from "./SidePanel.module.css";
 import { useRef } from "react";
 
-const InfoSlider = ({ text, img }) => {
+const InfoSlider = ({ text, img, onChange}) => {
+  const handleChange = (event) => {
+    onChange(event.target.value);
+  };
+
   const show = () => {
     sideRef.current.classList.add(style.Show);
   };
@@ -13,6 +17,7 @@ const InfoSlider = ({ text, img }) => {
   return (
     <>
       <img
+        onClick={handleChange}
         onMouseEnter={show}
         onMouseLeave={hide}
         className={style.Icon + " invert"}
