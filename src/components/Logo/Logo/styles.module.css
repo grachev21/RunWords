@@ -1,0 +1,16 @@
+.LogoBlock {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+}
+.LogoText1 {
+  color: var(--color-three);
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 4px;
+}
+.LogoText2 {
+  color: var(--color-nine);
+  font-size: 22px;
+  font-weight: 500;
+}

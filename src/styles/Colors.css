@@ -1,16 +1,16 @@
 :root {
-    --text: #fff;
-    --background: #101112;
-    --background-contrast: #a09db5;
-    --violet: #ce2fc1;
-    --red: #ff0000;
-    --border: #627c9d;
-    --icons-background: #4ecaab;
-    --button-background: rgb(17, 29, 34);
-    --shadow: rgb(20, 20, 26);
-    --header: rgb(10, 13, 19);
+  --color-one: rgb(43, 43, 43);
+  --color-two: rgb(41, 34, 33);
+  --color-three: rgb(255, 81, 1);
+  --color-four: rgb(255, 255, 255);
+  --color-five: rgb(214, 0, 0);
+  --color-six: rgb(68, 170, 42);
+  --color-seven: rgb(0, 47, 255);
+  --color-eight: rgb(60, 68, 71);
+  --color-nine: rgb(133, 133, 133);
+  --color-ten: rgb(0, 255, 242);
 
-    img {
-        filter: invert();
-    }
+  img {
+    filter: invert();
+  }
 }

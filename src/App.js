@@ -6,13 +6,13 @@ import "./styles/App.css";
 
 import { ThemeProvider } from "styled-components";
 
-import Footer from "./components/Footer/Footer";
+import Footer from "./pages/pageComponents/Footer/Footer";
 import Header from "./components/Header";
 import Home from "./pages/Home";
 import CreateDict from "./pages/CreateDict";
 import LearnWords from "./pages/LearnWords";
 import Repeat from "./pages/Repeat";
-import SidePanel from "./pages/pageComponents/SidePanel";
+import SidePanel from "./pages/pageComponents/SidePanel/SidePanel";
 import ScrollToTop from "./utils/scrollToTop";
 import List from "./pages/List";
 import Reset from "./pages/Reset";

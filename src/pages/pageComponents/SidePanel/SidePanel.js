@@ -1,9 +1,9 @@
 import style from "./SidePanel.module.css";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import { menu_list } from "../../helpers/ButtonMenuLIst";
-import ButtonTheme from "../../components/ButtonTheme";
-import LogoImage from "../../components/Logo/LogoImage";
+import { menu_list } from "../../../helpers/ButtonMenuLIst";
+import ButtonTheme from "../../../components/ButtonTheme";
+import LogoImage from "../../../components/Logo/LogoImage/LogoImage";
 
 const SidePanel = () => {
   const [showText, setShowText] = useState("-160px");
