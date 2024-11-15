@@ -1,24 +1,11 @@
-import styled from "styled-components";
 import logo from "../../../media/icons/ravencoin.png";
+import style from "./styles.module.css";
 
-const BackgroundLogo = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 60px;
-  cursor: pointer;
-`;
-const Logo = styled.img`
-  width: 40px;
-  height: 40px;
-  object-fit: cover;
-`;
 const LogoImage = () => {
   return (
-    <BackgroundLogo>
-      <Logo src={logo} alt=""></Logo>
-    </BackgroundLogo>
+    <div className={style.BackgroundLogo}>
+      <img className={style.Logo + " invert"} src={logo} alt=""></img>
+    </div>
   );
 };
 

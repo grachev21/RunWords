@@ -1,0 +1,10 @@
+.Input {
+  width: 288px;
+  background-color: var(--color-three);
+  border: none;
+  color: var(--text);
+  padding-top: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+}

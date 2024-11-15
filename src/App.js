@@ -4,10 +4,8 @@ import "./styles/Settings.css";
 import "./styles/Colors.css";
 import "./styles/App.css";
 
-import { ThemeProvider } from "styled-components";
-
 import Footer from "./pages/pageComponents/Footer/Footer";
-import Header from "./components/Header";
+import Header from "./pages/pageComponents/Header/Header";
 import Home from "./pages/Home";
 import CreateDict from "./pages/CreateDict";
 import LearnWords from "./pages/LearnWords";
@@ -28,27 +26,24 @@ const theme = {
 };
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <div className="App">
-        <Router>
-          <ScrollToTop />
-          <Header />
-
-          <SidePanel />
-          <div className="container">
-            <Routes>
-              <Route path="/" element={<Home />} />
-              <Route path="/createdict" element={<CreateDict />} />
-              <Route path="/university" element={<LearnWords />} />
-              <Route path="/repeat" element={<Repeat />} />
-              <Route path="/list" element={<List />} />
-              <Route path="/reset" element={<Reset />} />
-            </Routes>
-          </div>
-          <Footer />
-        </Router>
-      </div>
-    </ThemeProvider>
+    <div className="App">
+      <Router>
+        <ScrollToTop />
+        <Header />
+        <SidePanel />
+        <div className="container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/createdict" element={<CreateDict />} />
+            <Route path="/university" element={<LearnWords />} />
+            <Route path="/repeat" element={<Repeat />} />
+            <Route path="/list" element={<List />} />
+            <Route path="/reset" element={<Reset />} />
+          </Routes>
+        </div>
+        <Footer />
+      </Router>
+    </div>
   );
 };
 

@@ -1,0 +1,21 @@
+.Settings {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+}
+.BackgroundButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-three);
+  border-radius: 50%;
+}
+.Item {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  padding: 8px;
+  cursor: pointer;
+}

@@ -1,0 +1,24 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  background-color: var(--color-two);
+}
+.BlockMenuHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.Line {
+  position: absolute;
+  background-color: var(--color-four);
+  width: 100%;
+  height: 1px;
+  bottom: 0px;
+  opacity: 10%;
+}
