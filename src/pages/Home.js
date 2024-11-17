@@ -2,10 +2,15 @@ import { NavLink } from "react-router-dom";
 import ButtonMenu from "../components/ButtonMenu/ButtonMenu";
 import { menu_list } from "../helpers/ButtonMenuLIst";
 import "../styles/Home.css";
+import BarChartWords from "../components/BarChartWords/BarChartWords";
+import BlockInformation from "../components/BlockInformation/BlockInformation";
 
 export default function Home() {
   return (
     <div className="Home">
+      <BlockInformation />
+
+      <BarChartWords />
       {/* {menu_list.map((menu_list, index) => {
         return (
           <NavLink key={index} to={menu_list.link} className="link-menu">

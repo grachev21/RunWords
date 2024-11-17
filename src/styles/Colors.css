@@ -1,14 +1,17 @@
 :root {
-  --color-one: rgb(20, 20, 20);
-  --color-two: rgb(27, 27, 27);
-  --color-three: rgb(255, 81, 1);
+  --color-one: rgb(13, 4, 30);
+  --color-two: rgb(23, 3, 43);
+  --color-three: rgb(24, 17, 54);
   --color-four: rgb(255, 255, 255);
-  --color-five: rgb(214, 0, 0);
-  --color-six: rgb(68, 170, 42);
+  --color-five: rgb(156, 0, 0);
+  --color-six: rgb(159, 35, 152);
   --color-seven: rgb(0, 47, 255);
-  --color-eight: rgb(29, 29, 29);
-  --color-nine: rgb(133, 133, 133);
-  --color-ten: rgb(0, 255, 242);
+  --color-eight: rgb(28, 26, 55);
+  --color-nine: rgb(41, 213, 164);
+  --color-ten: rgb(43, 156, 213);
+
+  --shadow-one: inset -1px 5px 7px 0px rgba(255, 255, 255, 0.4);
+  --shadow-two: 0px 0px 14px 6px rgba(25, 8, 42, 0.2);
 }
 
 .invert {

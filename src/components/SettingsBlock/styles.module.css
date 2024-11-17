@@ -9,7 +9,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--color-three);
+  background-color: var(--color-six);
   border-radius: 50%;
 }
 .Item {

@@ -1,0 +1,35 @@
+.BlockInformation {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100em;
+}
+.Card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 15px;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  color: var(--color-ten);
+  background: linear-gradient(45deg, var(--color-one) 0%, var(--color-two) 50%);
+  box-shadow: var(--shadow-two);
+}
+
+.Title {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 80px 20px 80px 20px;
+  text-align: center;
+  font-weight: 300;
+  font-size: 32px;
+  box-shadow: var(var(--shadow-one));
+}
+
+.Info {
+  color: var(--color-nine);
+  font-size: 22px;
+  font-style: italic;
+}
