@@ -6,7 +6,7 @@ import style from "./styles.module.css";
 const Nav = () => {
   return (
     <div className={style.Header}>
-      <div className={style.BlockMenuHeader}>
+      <div className={style.BlockMenuHeader + " limiter"}>
         <NavLink to="/">
           <Logo />
         </NavLink>

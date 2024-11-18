@@ -6,7 +6,7 @@ import "./styles/App.css";
 
 import Footer from "./pages/pageComponents/Footer/Footer";
 import Header from "./pages/pageComponents/Header/Header";
-import Home from "./pages/Home";
+import Home from "./pages/Home/Home";
 import CreateDict from "./pages/CreateDict";
 import LearnWords from "./pages/LearnWords";
 import Repeat from "./pages/Repeat";
