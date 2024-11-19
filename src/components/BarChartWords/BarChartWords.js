@@ -7,20 +7,18 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   Rectangle,
   ResponsiveContainer,
 } from "recharts";
 
-
-const BarChartWords = ({month}) => {
+const BarChartWords = ({ data }) => {
   return (
     <ResponsiveContainer
       className={style.Container + " limiter"}
       width={"100%"}
-      height={400}>
+      height={200}>
       <BarChart
-        data={month}
+        data={data}
         margin={{
           top: 5,
           right: 0,
@@ -34,7 +32,7 @@ const BarChartWords = ({month}) => {
         <Bar
           dataKey="uv"
           fill="#2b9cd5"
-          // activeBar={<Rectangle fill="pink" stroke="blue" />}
+          activeBar={<Rectangle fill="pink" stroke="blue" />}
         />
       </BarChart>
     </ResponsiveContainer>

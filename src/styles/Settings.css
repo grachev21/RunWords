@@ -127,6 +127,7 @@ a {
 }
 
 .limiter {
-  max-width: 85%;
-  min-width: 85%;
+  box-sizing: border-box;
+  padding-left: 160px;
+  padding-right: 100px;
 }

@@ -4,18 +4,19 @@ import { menu_list } from "../../helpers/ButtonMenuLIst";
 import "./styles.css";
 import month from "../../helpers/Month";
 import week from "../../helpers/Week";
+import SettingsInformation from "./SettingsInformation/SettingsInformation";
 import BarChartWords from "../../components/BarChartWords/BarChartWords";
 import BlockInformation from "./BlockInformation/BlockInformation";
 
 export default function Home() {
   return (
     <div className="Home limiter">
+      <SettingsInformation />
       <BlockInformation />
-
-<BarChartWords week={week}/>
-<BarChartWords month={month}/>
-{/* <BarChartWords data={week}/> */}
-{/* <BarChartWords data={Month}/> */}
+      <BarChartWords data={week} />
+      <BarChartWords data={month} />
+      {/* <BarChartWords data={week}/> */}
+      {/* <BarChartWords data={Month}/> */}
 
       {/* <BarChartWords /> */}
       {/* {menu_list.map((menu_list, index) => {
