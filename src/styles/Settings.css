@@ -114,11 +114,13 @@ a {
   text-decoration: none;
 }
 
+html{
+  background-color: var(--color-one);
+  z-index: -1;
+}
 #root {
   position: relative;
   min-height: 100vh;
-  background-color: var(--color-one);
-  z-index: -50;
 }
 
 .App {

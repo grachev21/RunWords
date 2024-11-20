@@ -1,4 +1,4 @@
-:root {
+.night {
   --color-one: #0d041e;
   --color-two: #17032b;
   --color-three: #181136;
@@ -12,8 +12,23 @@
 
   --shadow-one: inset -1px 5px 7px 0px rgba(255, 255, 255, 0.4);
   --shadow-two: 0px 0px 14px 6px rgba(25, 8, 42, 0.2);
-}
-
 .invert {
   filter: invert();
 }
+}
+
+/* .day {
+  --color-one: #334253;
+  --color-two: #521f58;
+  --color-three: #ffffff;
+  --color-four: #401750;
+  --color-five: hsl(263, 100%, 31%);
+  --color-six: #979f23;
+  --color-seven: #d9ff00;
+  --color-eight: #0c0b1a;
+  --color-nine: #4e29d5;
+  --color-ten: #292f31;
+
+  --shadow-one: inset -1px 5px 7px 0px rgba(255, 255, 255, 0.4);
+  --shadow-two: 0px 0px 14px 6px rgba(25, 8, 42, 0.2);
+} */

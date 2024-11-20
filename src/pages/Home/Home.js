@@ -2,10 +2,19 @@ import "./styles.css";
 import SettingsInformation from "./SettingsInformation/SettingsInformation";
 import BlockInformation from "./BlockInformation/BlockInformation";
 import Graphic from "./Graphic/Graphic";
+import Title from "../../components/Title/Title";
+import Text from "../../components/Text/Text";
 
 export default function Home() {
   return (
     <div className="Home limiter">
+      <Title text={"RunWord - помощник в освоении и отработки слов"} />
+      <Text
+        text={
+          "Здесь вы сможете создать словарь из любого текста, алгоритм удалит все повторяющиеся слова и сортируит их по алфавиту"
+        }
+      />
+
       <SettingsInformation />
       <BlockInformation />
       <Graphic />
