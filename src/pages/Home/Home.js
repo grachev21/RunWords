@@ -1,20 +1,14 @@
-import { NavLink } from "react-router-dom";
-import ButtonMenu from "../../components/ButtonMenu/ButtonMenu";
-import { menu_list } from "../../helpers/ButtonMenuLIst";
 import "./styles.css";
-import month from "../../helpers/Month";
-import week from "../../helpers/Week";
 import SettingsInformation from "./SettingsInformation/SettingsInformation";
-import BarChartWords from "../../components/BarChartWords/BarChartWords";
 import BlockInformation from "./BlockInformation/BlockInformation";
+import Graphic from "./Graphic/Graphic";
 
 export default function Home() {
   return (
     <div className="Home limiter">
       <SettingsInformation />
       <BlockInformation />
-      <BarChartWords data={week} />
-      <BarChartWords data={month} />
+      <Graphic />
       {/* <BarChartWords data={week}/> */}
       {/* <BarChartWords data={Month}/> */}
 

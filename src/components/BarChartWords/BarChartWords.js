@@ -1,4 +1,3 @@
-import style from "./styles.module.css";
 import React from "react";
 import {
   BarChart,
@@ -14,16 +13,15 @@ import {
 const BarChartWords = ({ data }) => {
   return (
     <ResponsiveContainer
-      className={style.Container + " limiter"}
       width={"100%"}
-      height={200}>
+      height={300}>
       <BarChart
         data={data}
         margin={{
-          top: 5,
-          right: 0,
+          top: 20,
+          right: 20,
           left: 0,
-          bottom: 5,
+          bottom: 0,
         }}>
         <CartesianGrid />
         <XAxis dataKey="name" />

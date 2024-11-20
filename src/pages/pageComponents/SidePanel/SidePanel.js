@@ -20,7 +20,6 @@ const SidePanel = () => {
       setModalActive(false);
     }
   };
-  console.log(value);
 
   return (
     <div className={style.Panel}>

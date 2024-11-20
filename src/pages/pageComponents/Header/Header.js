@@ -12,6 +12,7 @@ const Nav = () => {
         </NavLink>
         <SettingsBox />
       </div>
+      <div className={style.line}></div>
     </div>
   );
 };

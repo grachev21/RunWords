@@ -9,7 +9,7 @@ const ModelWindow = ({ active, setActive }) => {
         className={style.ModalContainer}
         onClick={(e) => e.stopPropagation()}>
         <form className={style.Form}>
-          <label className={style.LabelTexarea} for="dict">
+          <label className={style.LabelTexarea} htmlFor="dict">
             Вставте текст в это поле
           </label>
           <textarea
@@ -24,7 +24,7 @@ const ModelWindow = ({ active, setActive }) => {
               id="cuttingWords"
               type="checkbox"
             />
-            <label className={style.LabelCheckBox} for="cuttingWords">
+            <label className={style.LabelCheckBox} htmlFor="cuttingWords">
               Не сохранять слова короче двуъ символов
             </label>
           </div>
