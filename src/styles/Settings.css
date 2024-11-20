@@ -115,7 +115,10 @@ a {
 }
 
 #root {
+  position: relative;
   min-height: 100vh;
+  background-color: var(--color-one);
+  z-index: -50;
 }
 
 .App {
@@ -123,7 +126,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: var(--color-one);
 }
 
 .limiter {
