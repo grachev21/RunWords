@@ -27,7 +27,7 @@
   background: linear-gradient(45deg, var(--color-one) 0%, var(--color-two) 50%);
 }
 
-@property --angle{
+@property --angle {
   syntax: "<angle>";
   initial-value: 0deg;
   inherits: false;
@@ -38,7 +38,13 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background-image: conic-gradient(from var(--angle), var(--color-six), var(--color-nine), var(--color-ten),  var(--color-six));
+  background-image: conic-gradient(
+    from var(--angle),
+    var(--color-six),
+    var(--color-nine),
+    var(--color-ten),
+    var(--color-six)
+  );
   border-radius: 15px;
   top: 50%;
   left: 50%;
@@ -69,4 +75,14 @@
   font-weight: 500;
   font-size: 32px;
   box-shadow: var(var(--shadow-one));
+}
+
+@media (max-width: 810px) {
+  .TitleInformation {
+    font-size: 28px;
+  }
+  .Card {
+    width: 180;
+    height: 200;
+  }
 }
