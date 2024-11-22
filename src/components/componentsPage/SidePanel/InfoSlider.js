@@ -1,4 +1,4 @@
-import style from "./SidePanel.module.css";
+import style from "./styles.module.css";
 import { useRef } from "react";
 
 const InfoSlider = ({ text, img, onChange, button }) => {

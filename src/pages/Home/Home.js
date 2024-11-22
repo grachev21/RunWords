@@ -2,8 +2,8 @@ import "./styles.css";
 import SettingsInformation from "./SettingsInformation/SettingsInformation";
 import BlockInformation from "./BlockInformation/BlockInformation";
 import Graphic from "./Graphic/Graphic";
-import Title from "../../components/Title/Title";
-import Text from "../../components/Text/Text";
+import Title from "../../components/componentsMain/Title/Title";
+import Text from "../../components/componentsMain/Text/Text";
 
 export default function Home() {
   return (

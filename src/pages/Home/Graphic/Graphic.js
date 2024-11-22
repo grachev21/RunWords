@@ -1,10 +1,10 @@
 import style from "./styles.module.css";
-import { useEffect, useRef, useState, createRef } from "react";
-import BarChartWords from "../../../components/BarChartWords/BarChartWords";
+import { useState } from "react";
+import BarChartWords from "../../../components/componentsMain/BarChartWords/BarChartWords";
+import PieChartWords from "../../../components/componentsMain/BarChartWords/PieChart";
 import week from "../../../helpers/Week";
 import month from "../../../helpers/Month";
 import year from "../../../helpers/Year";
-import PieChartWords from "../../../components/BarChartWords/PieChart";
 
 const Graphic = () => {
   const [isItem, setItem] = useState(0);

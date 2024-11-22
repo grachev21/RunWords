@@ -1,11 +1,11 @@
 import { NavLink } from "react-router-dom";
-import Logo from "../../../components/Logo/Logo/Logo";
-import SettingsBox from "../../../components/SettingsBlock/SettingsBlock";
+import Logo from "../../componentsMain/Logo";
+import SettingsBox from "../../componentsMain/SettingsBlock/SettingsBlock";
 import style from "./styles.module.css";
 
 const Nav = () => {
   return (
-    <div className={style.Header}>
+    <div className="flex justify-center fixed w-full h-14 backdrop-blur-md bg-color_eight/30 z-50">
       <div className={style.BlockMenuHeader + " limiter"}>
         <NavLink to="/">
           <Logo />

@@ -1,0 +1,67 @@
+.Settings {
+}
+.Container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  width: 120px;
+  height: 40px;
+}
+.BackgroundButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: var(--color-six);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.ItemMenu {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  padding: 8px;
+  cursor: pointer;
+}
+.Item {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  padding: 8px;
+  cursor: pointer;
+}
+.Menu {
+  display: none;
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+  padding: 8px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .Settings {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 40px;
+    height: 40px;
+  }
+  .Container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-eight);
+    position: absolute;
+    top: -180px;
+    min-width: 60px;
+    min-height: 130px;
+    border-radius: 10px;
+    transition: .3s;
+  }
+  .Menu {
+    display: block;
+  }
+}

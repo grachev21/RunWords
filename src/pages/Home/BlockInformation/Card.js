@@ -1,5 +1,5 @@
 import style from "./styles.module.css";
-import Counter from "../../../components/Counter/Counter";
+import Counter from "../../../components/componentsMain/Counter/Counter";
 const Card = ({ title, info }) => {
   return (
       <div className={style.Card}>
