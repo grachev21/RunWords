@@ -1,12 +1,12 @@
-.Panel {
+/* .Panel {
   height: 100%;
   position: fixed;
   top: 0px;
   left: 0px;
   background-color: var(--color-two);
   z-index: 10;
-}
-.PanelButton {
+} */
+/* .PanelButton {
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
@@ -63,4 +63,4 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-}
+} */

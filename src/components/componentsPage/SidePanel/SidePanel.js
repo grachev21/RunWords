@@ -22,9 +22,9 @@ const SidePanel = () => {
   };
 
   return (
-    <div className={style.Panel}>
+    <div className="w-14 h-full fixed top-0 left-0 bg-color_two z-20">
       <LogoImage />
-      <div className={style.PanelButton}>
+      <div className="w-full max-h-72 bg-slate-600">
         <div className={style.Link}>
           <NavLink to={menu_list[0].link}>
             <InfoSlider text={menu_list[0].title} img={menu_list[0].img} button={false} onChange={handleChange} />

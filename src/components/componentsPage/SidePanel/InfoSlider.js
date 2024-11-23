@@ -19,7 +19,7 @@ const InfoSlider = ({ text, img, onChange, button }) => {
         onClick={handleChange}
         onMouseEnter={show}
         onMouseLeave={hide}
-        className={style.Icon + " invert"}
+        className="w-5 h5 invert"
         src={img}></img>
       <p ref={sideRef} onMouseLeave={hide} className={style.InfoSlider}>
         {text}
@@ -27,11 +27,7 @@ const InfoSlider = ({ text, img, onChange, button }) => {
     </>
   ) : (
     <>
-      <img
-        onMouseEnter={show}
-        onMouseLeave={hide}
-        className={style.Icon + " invert"}
-        src={img}></img>
+      <img onMouseEnter={show} onMouseLeave={hide} className="w-5 h5 invert" src={img}></img>
       <p ref={sideRef} onMouseLeave={hide} className={style.InfoSlider}>
         {text}
       </p>
