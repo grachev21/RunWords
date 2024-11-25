@@ -1,4 +1,3 @@
-import style from "./styles.module.css";
 import { useState } from "react";
 import useInterval from "use-interval";
 const Counter = ({ number }) => {
@@ -10,6 +9,6 @@ const Counter = ({ number }) => {
       setNumber(isNumber + 1);
     }
   }, 20);
-  return <div className={style.Number}>{isNumber}</div>;
+  return <div className="font-light text-3xl text-color_four">{isNumber}</div>;
 };
 export default Counter;

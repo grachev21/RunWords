@@ -1,4 +1,4 @@
-.Modal {
+/* .Modal {
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -9,8 +9,8 @@
   justify-content: center;
   transition: 0.3s;
   transform: scale(0);
-}
-.activeModal {
+} */
+/* .activeModal {
   height: 100vh;
   width: 100%;
   position: fixed;
@@ -21,7 +21,7 @@
   justify-content: center;
   transition: 0.3s;
   transform: scale(1);
-}
+} */
 .ModalContainer {
   padding: 20px;
   border-radius: 20px;
@@ -32,20 +32,20 @@
   color: var(--color-nine);
   font-weight: 300;
 }
-.Form {
+/* .Form {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   width: 100%;
   height: 100%;
-}
-.LabelTexarea {
+} */
+/* .LabelTexarea {
   color: var(--color-nine);
   font-weight: 700;
   font-size: x-large;
   margin-bottom: 30px;
-}
-.DictText {
+} */
+/* .DictText {
   background-color: var(--color-three);
   border: none;
   resize: none;
@@ -56,8 +56,8 @@
   text-align: left;
   padding: 20px;
   box-shadow: var(--shadow-two);
-}
-.CheckBoxBlock {
+} */
+/* .CheckBoxBlock {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,8 +69,8 @@
   border-radius: 20px;
   border: 1px solid var(--color-six);
   box-shadow: var(--shadow-two);
-}
-.CheckBox {
+} */
+/* .CheckBox {
   display: inline-block;
   width: 20px;
   height: 20px;
@@ -83,16 +83,16 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50% 50%;
-}
-.LabelCheckBox {
+} */
+/* .LabelCheckBox {
   color: var(--color-nine);
   font-weight: 500;
   margin-left: 20px;
-}
-.BlockButton {
+} */
+/* .BlockButton {
   display: flex;
   justify-content: flex-end;
-}
+} */
 .ButtonCancel {
   color: var(--color-four);
   font-weight: 800;
@@ -122,5 +122,5 @@
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-  backdrop-filter: blur(8px);
+  /* backdrop-filter: blur(8px); */
 }

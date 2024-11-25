@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import style from "./styles.module.css";
 import day from "./icons/day-mode.png";
 import night from "./icons/crescent-moon.png";
 
@@ -22,11 +21,11 @@ const ButtonTheme = () => {
   };
 
   return (
-    <div onClick={switchDayNight} className={style.backIcons}>
+    <div onClick={switchDayNight} className="w-fail flex justify-center mb-5">
       {isTheme === "dark" ? (
-        <img className={style.icon + " no-invert"} src={day} alt=""></img>
+        <img className="w-7 h-7 cursor-pointer" src={day} alt=""></img>
       ) : (
-        <img className={style.icon} src={night} alt=""></img>
+        <img className="w-7 h-7 cursor-pointer" src={night} alt=""></img>
       )}
     </div>
   );

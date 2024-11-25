@@ -3,35 +3,42 @@ import style from "./styles.module.css";
 const ModelWindow = ({ active, setActive }) => {
   return (
     <div
-      className={active ? style.activeModal : style.Modal}
+      className={
+        active
+          ? "h-full w-full fixed top-0 left-0 flex items-center justify-center transition-all scale-100"
+          : "h-full w-full fixed top-0 left-0 flex items-center justify-center transition-all scale-0"
+      }
       onClick={() => setActive(false)}>
       <div
-        className={style.ModalContainer}
+        className="p-5 rounded-lg backdrop-blur-md bg-color_eight/30 border border-slate-800"
         onClick={(e) => e.stopPropagation()}>
-        <form className={style.Form}>
-          <label className={style.LabelTexarea} htmlFor="dict">
+        <form className="flex justify-between flex-col w-full h-full">
+          <label className="text-color_four text-2xl font-bold mb-8" htmlFor="dict">
             Вставте текст в это поле
           </label>
           <textarea
-            className={style.DictText}
+            className="rounded-lg text-color_four text-base p-5 backdrop-blur-md bg-color_four/10 
+                      resize-none outline-none border-none"
             id="dict"
             cols="50"
             rows="6"
             type="text"></textarea>
-          <div className={style.CheckBoxBlock}>
+          <div className="flex justify-between items-center flex-row-reverse h-16 mt-9 mb-9 rounded-lg border border-color_four">
             <input
-              className={style.CheckBox}
+              className="inline-block w-5 h-5 flex-shrink-0 flex-grow-0 border-0 accent-color_eight rounded-s-lg mr-5 bg-no-repeat"
               id="cuttingWords"
               type="checkbox"
             />
-            <label className={style.LabelCheckBox} htmlFor="cuttingWords">
+            <label className="text-color_four font-semibold ml-5" htmlFor="cuttingWords">
               Не сохранять слова короче двуъ символов
             </label>
           </div>
-          <div className={style.BlockButton}>
-            <button className={style.ButtonCancel}>Отмена</button>
+          <div className="flex justify-end">
+            <button className="font-bold text-xl text-color_four border-none h-11 w-32 rounded-lg bg-color_nine shadow-lg shadow-color_nine/40">
+              Отмена
+            </button>
             <input
-              className={style.Button}
+              className="font-bold text-xl text-color_four border-none h-11 w-32 rounded-lg bg-color_six shadow-lg shadow-color_six/40 ml-6"
               id="cuttingWords"
               type="submit"
               value="Создать"
