@@ -1,10 +1,9 @@
 import logo from "../../../media/icons/ravencoin.png";
-import style from "./styles.module.css";
 
 const LogoImage = () => {
   return (
-    <div className={style.BackgroundLogo}>
-      <img className={style.Logo + " invert"} src={logo} alt=""></img>
+    <div className="flex items-center justify-center w-16 h-16 cursor-pointer">
+      <img className="w-10 h-10 object-cover invert" src={logo} alt=""></img>
     </div>
   );
 };

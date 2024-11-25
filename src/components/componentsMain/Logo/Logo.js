@@ -1,9 +1,8 @@
-import style from "./styles.module.css";
 const Logo = () => {
   return (
-    <div className={style.Logo}>
-      <div className={style.Run}>Run</div>
-      <div className={style.Word}>Word</div>
+    <div className="flex justify-center">
+      <div className="text-color_six text-3xl">Run</div>
+      <div className="text-color_nine text-3xl">Word</div>
     </div>
   );
 };
