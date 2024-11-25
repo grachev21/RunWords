@@ -1,11 +1,13 @@
 .Settings {
+  position: relative;
+  height: 40px;
+  width: 110px;
 }
 .Container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 120px;
-  height: 40px;
 }
 .BackgroundButton {
   display: flex;
@@ -17,18 +19,17 @@
   width: 40px;
   height: 40px;
 }
-.ItemMenu {
+.ItemSettings{
+  position: absolute;
   width: 20px;
   height: 20px;
   object-fit: cover;
-  padding: 8px;
   cursor: pointer;
 }
 .Item {
   width: 20px;
   height: 20px;
   object-fit: cover;
-  padding: 8px;
   cursor: pointer;
 }
 .Menu {
@@ -36,11 +37,10 @@
   width: 20px;
   height: 20px;
   object-fit: cover;
-  padding: 8px;
   cursor: pointer;
 }
 
-@media (max-width: 700px) {
+/* @media (max-width: 700px) {
   .Settings {
     display: flex;
     align-items: center;
@@ -48,8 +48,8 @@
     position: relative;
     width: 40px;
     height: 40px;
-  }
-  .Container {
+  } */
+  /* .Container {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -64,4 +64,4 @@
   .Menu {
     display: block;
   }
-}
+} */

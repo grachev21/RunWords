@@ -1,5 +1,5 @@
 import style from "./styles.module.css";
-import Logo from "../../componentsMain/Logo";
+import Logo from "../../componentsMain/Logo/Logo";
 import LogoImg from "../../componentsMain/LogoImage/LogoImage";
 import vk from "./icons/vk_black_logo_icon_147058.png";
 import vb from "./icons/viber_black_logo_icon_147056.png";

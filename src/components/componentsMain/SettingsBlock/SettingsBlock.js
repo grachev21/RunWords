@@ -3,10 +3,16 @@ import iconSettig from "./icons/icons8-settings-50.png";
 import iconUser from "./icons/icons8-user-24.png";
 import iconMessage from "./icons/icons8-message-50.png";
 import menu from "./icons/icons8-menu-50.png";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const SettingsBox = () => {
   const [isMenu, setMenu] = useState(-180);
+  const [isWindowWidth, setWindowWidth] = useState(window.screen.width);
+
+  useEffect(() => {
+    console.log(isWindowWidth);
+  }, [isWindowWidth, setWindowWidth]);
+
   const slide = () => {
     if (isMenu === -180) {
       setMenu(70);
@@ -17,7 +23,7 @@ const SettingsBox = () => {
   console.log(isMenu);
   const slideTop = {
     top: `${isMenu}px`,
-    opacity: "isOpasity"
+    opacity: "isOpasity",
   };
   return (
     <div onClick={slide} className={style.Settings}>
@@ -26,7 +32,7 @@ const SettingsBox = () => {
         <img className={style.Item + " invert"} src={iconMessage} alt=""></img>
         <img className={style.Item + " invert"} src={iconUser} alt=""></img>
         <div className={style.BackgroundButton}>
-          <img className={style.ItemMenu + " invert"} src={iconSettig} alt=""></img>
+          <img className={style.ItemSettings + " invert"} src={iconSettig} alt=""></img>
         </div>
       </div>
     </div>

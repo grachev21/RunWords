@@ -1,0 +1,14 @@
+.Logo {
+  display: flex;
+  justify-content: center;
+}
+.Run {
+  color: var(--color-six);
+  font-size: 26px;
+  font-weight: 600;
+}
+.Word {
+  color: var(--color-nine);
+  font-size: 26px;
+  font-weight: 600;
+}
