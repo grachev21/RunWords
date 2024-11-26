@@ -1,5 +1,3 @@
-import './styles.css';
-
 export default function Input({title, label}) {
     return (
         <div className="input">

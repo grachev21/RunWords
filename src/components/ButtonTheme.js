@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import day from "./icons/day-mode.png";
-import night from "./icons/crescent-moon.png";
+import day from "../media/icons/day-mode.png";
+import night from "../media/icons/crescent-moon.png";
 
 const ButtonTheme = () => {
   const [isTheme, setTheme] = useState("dark");

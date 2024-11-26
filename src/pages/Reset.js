@@ -1,6 +1,5 @@
-import "../styles/Reset.css";
-import Input from "../components/componentsMain/Inputs/Input";
-import ButtonInput from "../components/componentsMain/ButtonInput/ButtonInput";
+import Input from "../components/Input";
+import ButtonInput from "../components/ButtonInput";
 
 export default function Reset() {
   return (
