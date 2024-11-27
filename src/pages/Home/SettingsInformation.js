@@ -1,4 +1,4 @@
-import LabelInfoDot from "../../../components/LabelInfoDot";
+import LabelInfoDot from "../../components/LabelInfoDot";
 const SettingsInformation = () => {
   return (
     <main className="flex flex-col justify-center items-center sm:w-full px-2 sm:px-20">

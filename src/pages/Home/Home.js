@@ -1,6 +1,6 @@
-import SettingsInformation from "./SettingsInformation/SettingsInformation";
-import BlockInformation from "./BlockInformation/BlockInformation";
-import Graphic from "./Graphic/Graphic";
+import SettingsInformation from "./SettingsInformation";
+import BlockInformation from "./BlockInformation";
+import Graphic from "./Graphic";
 import Title from "../../components/Title";
 import Text from "../../components/Text";
 

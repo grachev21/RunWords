@@ -13,9 +13,9 @@ module.exports = {
         color_seven: "#002fff",
         color_eight: "#1c1a37",
         color_nine: "#29d5a4",
-        color_ten: "#2b9cd5",
-      },
-    },
+        color_ten: "#2b9cd5"
+      }
+    }
   },
-  plugins: [],
+  plugins: []
 };

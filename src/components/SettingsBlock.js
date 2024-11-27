@@ -8,9 +8,7 @@ const SettingsBox = () => {
   const [isMenu, setMenu] = useState(-180);
   const [isWindowWidth, setWindowWidth] = useState(window.screen.width);
 
-  useEffect(() => {
-    console.log(isWindowWidth);
-  }, [isWindowWidth, setWindowWidth]);
+  useEffect(() => {}, [isWindowWidth, setWindowWidth]);
 
   const slide = () => {
     if (isMenu === -180) {
@@ -19,15 +17,14 @@ const SettingsBox = () => {
       setMenu(-180);
     }
   };
-  console.log(isMenu);
   const slideTop = {
     top: `${isMenu}px`,
     opacity: "isOpasity",
   };
   return (
-    <main onClick={slide} className="w-5 h-5 sm:relative sm:h-10 sm:w-28">
-      <img className="w-5 h-5 cursor-pointer invert sm:hidden" src={menu} alt="" />
-      <section className="hidden sm:flex sm:justify-between sm:items-center sm:flex-row" style={slideTop}>
+    <main onClick={slide} className="w-5 h-5 md:relative md:h-10 md:w-28">
+      <img className="w-5 h-5 cursor-pointer invert md:hidden" src={menu} alt="" />
+      <section className="hidden md:flex md:justify-between md:items-center md:flex-row" style={slideTop}>
         <img className="w-5 h-5 cursor-pointer invert" src={iconMessage} alt=""></img>
         <img className="w-5 h-5 cursor-pointer invert" src={iconUser} alt=""></img>
         <div className="flex justify-center items-center bg-color_six rounded-full w-10 h-10">
