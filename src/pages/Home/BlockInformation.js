@@ -19,22 +19,20 @@ const BlockInformation = () => {
     }
   }, 100);
   const gradientAnimation = {
-    backgroundImage: `conic-gradient(from ${isDeg}deg, red, blue, green, red)`
+    backgroundImage: `conic-gradient(from ${isDeg}deg, #9f2398, #29d5a4, #ffffff, #9f2398`
   };
   return (
-    <main className="flex flex-col sm:flex-row sm:flex-wrap sm:px-16 justify-between sm:w-full">
+    <main className="w-full p-4 sm:px-20 flex flex-row flex-wrap justify-between">
       {listInformation.map((listInformation, index) => {
         return (
-          <section
-            key={index}
-            className="relative my-8 mx-2 md:mx-4 sm:w-60 sm:h-72 md:w-72 flex items-center justify-center bg-color_four">
-            <div className="absolute rounded-lg w-full h-80 left-0 top-0 p-2" style={gradientAnimation}></div>
-            {/* <div className="absolute flex items-center flex-col rounded-2xl h-full m-full  text-color_ten border border-slate-600 bg-color_three">
-              <h1 className="flex items-center flex-col mb-20 mt-10 mr-5 ml-5 text-center font-bold text-3xl">
-                {listInformation.title}
-              </h1>
-              <Counter number={listInformation.value} />
-            </div> */}
+          <section key={index} className="w-full h-56 my-5 box-border relative md:w-72">
+            <div className="rounded-lg w-full h-full absolute blur-sm" style={gradientAnimation}></div>
+            <span className="absolute w-full h-full p-1">
+              <div className="rounded-lg bg-color_three w-full h-full flex ">
+                <h1 className="flex items-center pt-4 flex-col text-center font-bold text-3xl text-color_nine">{listInformation.title}</h1>
+                <Counter number={listInformation.value} />
+              </div>
+            </span>
           </section>
         );
       })}
