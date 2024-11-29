@@ -29,7 +29,9 @@ const BlockInformation = () => {
             <div className="rounded-lg w-full h-full absolute blur-sm" style={gradientAnimation}></div>
             <span className="absolute w-full h-full p-1">
               <div className="rounded-lg bg-color_three w-full h-full flex ">
-                <h1 className="flex items-center pt-4 flex-col text-center font-bold text-3xl text-color_nine">{listInformation.title}</h1>
+                <h1 className="flex items-center pt-4 flex-col text-center font-bold text-3xl text-color_nine">
+                  {listInformation.title}
+                </h1>
                 <Counter number={listInformation.value} />
               </div>
             </span>

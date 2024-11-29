@@ -1,6 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { useState } from "react";
-import useInterval from "use-interval";
 
 import Footer from "./components/Footer";
 import Header from "./components/Header";
@@ -14,23 +12,9 @@ import List from "./pages/List";
 import Reset from "./pages/Reset";
 
 const App = () => {
-  const [isDeg, setDeg] = useState(0);
-
-  useInterval(() => {
-    if (isDeg >= 360) {
-      setDeg(0);
-    } else {
-      setDeg(isDeg + 1);
-    }
-  }, 200);
-
-  const gradientAnimation = {
-    // backgroundImage: `conic-gradient(from ${isDeg}deg, #0d041e, #181136, #1c1a37, #0d041e)`
-    background: "rgb(2,0,36)",
-    background: `linear-gradient(${isDeg}deg, #0d041e 0%, #181136 35%, #181136 100%)`
-  };
   return (
-    <main className="flex flex-col justify-between w-screen h-screen" style={gradientAnimation}>
+    <main className="flex flex-col justify-between w-full h-screen bg-gradient-to-t to-color_three from-color_one">
+      <div></div>
       <Router>
         <ScrollToTop />
         <Header />

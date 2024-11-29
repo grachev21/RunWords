@@ -1,13 +1,15 @@
-import React from "react";
-
-const ButtonLeftCheckBox = ({ colorButton, colorDot, content }) => {
+const ButtonLeftCheckBox = ({ colorButton, colorDot, content, indexButton, onChange }) => {
+  const handleChange = (event) => {
+    onChange(event.target.value = indexButton); // callback-функция
+  };
+  console.log(colorButton)
   return (
     <button
       className={`
             relative 
             px-4
-            ${colorButton}
-            ${colorDot} 
+            text-color_ten
+            // ${colorDot} 
             before:content-[''] 
             before:w-2 
             before:h-2 
