@@ -23,6 +23,7 @@ const BlockInformation = () => {
   };
   return (
     <main className="w-full p-4 sm:px-20 flex flex-row flex-wrap justify-between">
+
       {listInformation.map((listInformation, index) => {
         return (
           <section key={index} className="w-full h-56 my-5 box-border relative md:w-72">
@@ -38,6 +39,7 @@ const BlockInformation = () => {
           </section>
         );
       })}
+
     </main>
   );
 };
